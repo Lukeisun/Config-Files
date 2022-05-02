@@ -9,6 +9,7 @@ $git_status\
 [](fg:#FCA17D bg:#86BBD8)\
 $nodejs\
 $rust\
+$conda\
 [](fg:#86BBD8 bg:#33658A)\
 $time\
 [ ](fg:#33658A)\
@@ -67,3 +68,7 @@ disabled = true
 time_format = "%R" # Hour:Minute Format
 style = "bg:#33658A"
 format = '[[ 🦧 $time ](bg:#33658A)]($style)'
+
+[conda]
+style = "bg:#33658A"
+format = "[[ $symbol $environment ](bg:#33658A)]($style)"
